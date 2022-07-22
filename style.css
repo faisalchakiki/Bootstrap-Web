@@ -1,0 +1,175 @@
+/* *{
+    border:solid #1D212F;
+} */
+body {
+    color: white;
+    height:auto;
+}
+
+.style-btn {
+    background-color: #F58634;
+    width: 120px;
+}
+
+header {
+    background-color: #1D212F;
+    color: #fff;
+}
+
+header h1 {
+    width: 80%;
+    font-size: 50px;
+    line-height: 1.3;
+}
+
+header p {
+    width: 70%;
+    color: #ccc;
+}
+
+.search {
+    width: 70%;
+    height: 60px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 0;
+    justify-content: space-evenly;
+}
+
+/* Aside */
+.aside-1 {
+    margin-top: 80px;
+}
+.aside-h1 {
+    font-weight: 650;
+}
+
+.aside p {
+    color: rgb(150, 147, 147);
+    width: 80%;
+}
+
+.list-content {
+    height: 80%;
+}
+
+/* Section */
+section h1 {
+    font-size: 50px;
+}
+
+/* MAIN */
+main h1 {
+    font-size: 50px;
+    margin:20px;
+}
+
+main p {
+    color: rgb(150, 147, 147);
+    font-size: 20px;
+}
+
+.card a {
+    text-decoration: none;
+}
+/* SECTION 2*/
+
+.avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #c9c2c338;
+    overflow: hidden;
+}
+/* Aside 2 */
+.aside-2{
+    width: 100%;
+    height: auto;
+}
+.aside-2 .container{
+    background-color:#1D212F;
+    border-radius: 2%;
+}
+.button{
+    width:100%;
+    height:60px;
+}
+.left-content-about .btn-item{
+    width: 35%;
+    height: 50px;
+    border-radius: 10%;
+}
+/* Footer */
+footer a{
+    text-decoration:none;
+    color:black
+}
+footer a:hover{
+    text-decoration:underline;
+    color:blue;
+}
+@media (max-width:992px) {
+
+    header h1,
+    header p,
+    .search {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    aside {
+        text-align: center;
+        margin: 60px auto;
+    }
+
+    aside p {
+        width: 100%;
+        margin: auto;
+    }
+
+    .list-content {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:768px) {
+    .search {
+        width: 70%;
+        height: 100px;
+    }
+
+    .search button {
+        margin-top: 10px
+    }
+}
+
+@media (max-width:540px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    section h1 {
+        font-size: 35px;
+    }
+
+    section p {
+        font-size: 8px;
+    }
+    main h1{
+        font-size:40px
+    }
+    .left-content-about .btn-item{
+        display: block;
+        width: 70%;
+        margin: 2px auto;
+    }
+}
