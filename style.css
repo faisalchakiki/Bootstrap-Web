@@ -172,4 +172,7 @@ footer a:hover{
         width: 70%;
         margin: 2px auto;
     }
+    .left-content-about a{
+        text-decoration: none;
+    }
 }
